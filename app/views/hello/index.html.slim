@@ -3,4 +3,4 @@ p Find me in app/views/hello/index.html.slim
 
 p
   |現在時刻：
-  = Time.current
+  = Time.current.in_time_zone('Asia/Tokyo')
