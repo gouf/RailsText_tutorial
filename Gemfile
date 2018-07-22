@@ -59,6 +59,7 @@ group :doc do
   gem 'yard'
 end
 
+gem 'awesome_print'
 gem 'bootstrap'
 gem 'freeezer'
 gem 'less-rails'
