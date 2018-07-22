@@ -11,7 +11,7 @@ p
   = @book.author
 p
   strong Picture:
-  = @book.picture
+  = image_tag(@book.picture_url) if @book.picture.present?
 
 => link_to 'Edit', edit_book_path(@book)
 '|
