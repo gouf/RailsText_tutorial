@@ -95,3 +95,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'timecop'
 end
+
+gem 'autoprefixer-rails', '8.6.5'

@@ -57,7 +57,7 @@ GEM
       rake (>= 10.4, < 13.0)
     arel (9.0.0)
     ast (2.4.0)
-    autoprefixer-rails (9.0.0)
+    autoprefixer-rails (8.6.5)
       execjs
     better_errors (2.4.0)
       coderay (>= 1.0.0)
@@ -381,6 +381,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  autoprefixer-rails (= 8.6.5)
   better_errors
   binding_of_caller
   bootsnap (>= 1.1.0)
