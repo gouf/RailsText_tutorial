@@ -60,6 +60,7 @@ group :doc do
 end
 
 gem 'bootstrap'
+gem 'carrierwave'
 gem 'freeezer'
 gem 'less-rails'
 gem 'nprogress-rails'
