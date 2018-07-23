@@ -16,3 +16,8 @@
 |[画像アップロード機能の追加](http://igarashikuniaki.net/rails_textbook/picture-upload.html)|[extending_image_upload_function](https://github.com/gouf/RailsText_tutorial/tree/extending_image_upload_function)
 |[あとがき](http://igarashikuniaki.net/rails_textbook/postface.html)| - |
 
+## その他ブランチ
+
+|課題|ブランチ|
+|----|--------|
+|i18n に対応してみよう|[implement_i18n_view](https://github.com/gouf/RailsText_tutorial/tree/implement_i18n_view)
