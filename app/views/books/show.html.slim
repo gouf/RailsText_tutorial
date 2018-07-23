@@ -1,18 +1,24 @@
 p#notice = notice
 
 p
-  strong Title:
+  strong
+    |#{t 'books.title'}:
   = @book.title
 p
-  strong Memo:
+  strong
+    |#{t 'books.memo'}:
   = @book.memo
 p
-  strong Author:
+  / strong Author:
+  strong
+    |#{t 'books.author'}:
   = @book.author
 p
-  strong Picture:
+  / strong Picture:
+  strong
+    |#{t 'books.picture'}
   = image_tag(@book.picture_url) if @book.picture.present?
 
-=> link_to 'Edit', edit_book_path(@book)
+=> link_to t('edit'), edit_book_path(@book)
 '|
-=< link_to 'Back', books_path
+=< link_to t('back'), books_path

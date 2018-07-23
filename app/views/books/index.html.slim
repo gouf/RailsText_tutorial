@@ -1,12 +1,12 @@
-h1 Listing books
+h1 = t 'books.listing_books'
 
 table
   thead
     tr
-      th Title
-      th Memo
-      th Author
-      th Picture
+      th = t 'books.title'
+      th = t 'books.memo'
+      th = t 'books.author'
+      th = t 'books.picture'
       th
       th
       th
@@ -18,10 +18,10 @@ table
         td = book.memo
         td = book.author
         td = book.picture
-        td = link_to 'Show', book
-        td = link_to 'Edit', edit_book_path(book)
-        td = link_to 'Destroy', book, data: { confirm: 'Are you sure?' }, method: :delete
+        td = link_to t('show'), book
+        td = link_to t('edit'), edit_book_path(book)
+        td = link_to t('destroy'), book, data: { confirm: t('are_you_sure?') }, method: :delete
 
 br
 
-= link_to 'New Book', new_book_path
+= link_to t('books.new_book'), new_book_path
