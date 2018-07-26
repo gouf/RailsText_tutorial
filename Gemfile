@@ -61,6 +61,7 @@ end
 
 gem 'bootstrap'
 gem 'carrierwave'
+gem 'devise'
 gem 'freeezer'
 gem 'less-rails'
 gem 'nprogress-rails'
