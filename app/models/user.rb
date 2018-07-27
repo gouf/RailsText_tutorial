@@ -15,9 +15,12 @@
 #  last_sign_in_ip        :string
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
+#  avatar                 :string
 #
 
 class User < ApplicationRecord
+  has_one_attached :avatar
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,

@@ -1,0 +1,11 @@
+h1 Users#edit
+p Find me in app/views/users/edit.html.slim
+
+= form_for @user do |f|
+  = f.label :avatar
+  = f.file_field :avatar
+
+  = f.label :email
+  = f.text_field :email
+
+  = f.submit

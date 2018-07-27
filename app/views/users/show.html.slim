@@ -1,0 +1,8 @@
+h1 Users#show
+p Find me in app/views/users/show.html.slim
+
+= tag.label 'avatar:', for: 'avatar'
+= tag.img(src: url_for(@user.avatar), id: 'avatar')
+
+= tag.label 'email:', for: 'email'
+= tag.div(@user.email, id: 'email')
