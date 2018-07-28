@@ -23,3 +23,4 @@
 |i18n に対応してみよう|[implement_i18n_view](https://github.com/gouf/RailsText_tutorial/tree/implement_i18n_view)
 |deviseを使ってユーザー認証を実装する|[implement_authentication_with_devise](https://github.com/gouf/RailsText_tutorial/tree/implement_authentication_with_devise)
 |ActiveStorageで画像をアップロード|[implement_user_profile_image_with_active_storage](https://github.com/gouf/RailsText_tutorial/tree/implement_user_profile_image_with_active_storage)
+|capybaraを使ってfeature specを書く|[add_some_capybara_test_case](https://github.com/gouf/RailsText_tutorial/tree/add_some_capybara_test_case)
